@@ -1,6 +1,6 @@
 #include <Adafruit_NeoPixel.h>
 
-#define PIN 6 // pino do anel de leds
+#define PIN 2 // pino do anel de leds
 #define NUMPIXELS 8 // quantidade de leds do anel
 Adafruit_NeoPixel pixels(NUMPIXELS, PIN, NEO_GRB + NEO_KHZ800); // necessário
 
